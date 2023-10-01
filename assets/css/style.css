@@ -5,9 +5,10 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* Set backgound colour*/
 }
 
+/* Set font style and colour for header, backgroundcolour and padding*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,14 +17,15 @@ header {
 }
 
 header h1 {
-    display: inline-block;
+    display: inline-block; /* details for text diplay and font size in a header*/
     font-size: 48px;
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /* Changes colour of three letters in a word in a header*/
 }
 
+/* Set font, display, padding and margin style for navigation tabs*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,25 +34,27 @@ header nav {
     font-size: 20px;
 }
 
+/* Removes default list style*/
 header nav ul {
     list-style-type: none;
 }
 
+/* Set margins and navigation tabs horizontaly*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
-    color: #ffffff;
+    color: #ffffff;         /* Set links colour*/
     text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+    font-size: 16px;            /* Set paragraphs font size */
 }
 
-figure img {
+figure img {                    /* Set main image properties*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,13 +62,13 @@ figure img {
     background-position: center;
 }
 
-#main-content {
+#main-content {                 /* Set main sections width, display and margins*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content {
+.content {                      /* Set background and font properties in 3 paragraphs under main-content*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -73,26 +77,26 @@ figure img {
     color: #ffffff;
 }
 
-.content img {
+.content img {                  /* Set main-content images height*/
     max-height: 200px;
 }
 
-.content h2 {
+.content h2 {                   /* Set font size and margin for every header in a paragrath under #main-content*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.float-left {
+.float-left {                   /* Set display and margin properties for images #search-engine-optimazation and #social-media-marketing*/
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right {                  /* Set display and margin properties for image #online-reputation-management*/
     float: right;
     margin-left: 25px;
 }
 
-#benefit {
+#benefit {                      /* Set aside content properties*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -103,30 +107,30 @@ figure img {
     background-color: #2589bd;
 }
 
-.benefits {
+.benefits {                    /* Set margin and font colour for paragraphs under #benefit */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
-.benefits h3 {
+.benefits h3 {                  /* Set margin and text align for headers in #benefit*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits img {
+.benefits img {                 /* Set display, width and margin for images in #benefit*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-footer {
+footer {                        /* Set properties for footer*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h4 {
+footer h4 {                     /* Set font size for header in footer*/
     font-size: 20px;
 }
