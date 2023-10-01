@@ -11,7 +11,7 @@ Image elements got and 'alt' attribution and.
 
 ## Instalation
 
-N/A
+Link to website [HORISEON](https://pauli090.github.io/horiseon-accessibility/)
 
 ## Usage
 
@@ -22,10 +22,9 @@ Webpage has 3 links at the top, on the right side which take you to the adequate
 
 ## Credits
 
-I followed tutorials 
-https://www.w3schools.com/html/default.asp
-Search for information about `alt` atribution 
-https://stackoverflow.com/questions/14850187/is-it-correct-to-use-alt-tag-for-an-anchor-link
+I followed tutorials [w3schools](https://www.w3schools.com/html/default.asp)
+
+Search for information about `alt` atribution [stackoverflow](https://stackoverflow.com/questions/14850187/is-it-correct-to-use-alt-tag-for-an-anchor-link)
 
 ## License 
 MIT
